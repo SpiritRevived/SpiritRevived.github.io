@@ -1,5 +1,5 @@
 body		{	background-color: #494443;
-				background-image: url(img/background.jpg);}
+				background-image: url(img/background2.jpg);}
 
 header		{	background-color: #686260;
 				color: #000000;
@@ -16,7 +16,7 @@ footer		{	background-color: #686260;
 
 #groupphoto	{	text-align: center;}
 
-#logo		{	width: 100%;}
+
 				
 #wrapper	{	box-shadow: 5px 5px 5px #828282;
 				width: 95%;
@@ -48,9 +48,13 @@ nav			{	text-align: center;}
 				color: white;
 				border-radius: 0 0 6px 6px;}
 
-#head		{	width: 50%;
+#head		{	width: 60%;
 				margin-left: auto;
 				margin-right: auto;}
+				
+#head logo		{	text-align: center;
+
+			}
 				
 #body		{	width: 50%;
 				margin-left: auto;
