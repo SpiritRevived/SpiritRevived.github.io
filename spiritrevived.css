@@ -55,3 +55,71 @@ nav			{	text-align: center;}
 #body		{	width: 50%;
 				margin-left: auto;
 				margin-right: auto;}
+
+@media only screen and (max-width: 1000px) {
+	body		{	margin: 0;
+					background-image: none;}
+	
+	#wrapper	{	width: auto;
+					min-width: 0;
+					margin: 0;
+					box-shadow: none;}
+					
+	header		{	background-position: center;
+					background-repeat: no-repeat;
+					height: 80px;}
+	
+	nav			{	float: none;
+					width: auto;
+					padding-top: 0;
+					margin-top: 0;}
+					
+	nav li		{	display: inline-block;}
+	
+	nav a		{	padding: 1em;
+					font-size: 1.3em;
+					width: 8em;
+					font-weight: bold;
+					border-style: none;}
+					
+	nav ul		{	padding: 0;
+					margin: 0;}
+					
+	main		{	padding: 2em;
+					margin: 0;
+					font-size: 90%;}
+}
+
+@media only screen and (max-width: 800px) {
+	nav			{	float: none;
+					width: auto;
+					padding-top: 0;
+					margin-top: 0;}
+
+	nav a		{	padding: 0.2em;
+					font-size: 1.3em;
+					width: auto;
+					font-weight: bold;
+					border-bottom: #330000 1px solid;
+					display: block;}
+
+	nav li		{	display: block;}
+	
+	h2			{	padding-top: 0.5em;
+					padding-right: 0;
+					padding-bottom: 0;
+					padding-left: 0.5em;
+					margin-right: 0.5em;}
+	
+	.details	{	padding-left: 0;
+					padding-right: 0;}
+					
+	.floatright	{	display: none;}
+	
+	.floatleft	{	padding-left: 0.5em;
+					padding-right: 0.5em;}
+					
+	#mobile		{	display: inline;}
+
+	#desktop	{	display: none;}
+}
